@@ -5,18 +5,57 @@ html, body{
 
 nav{
     background-color: darkgrey;
-    width: 100%;
+    width: 80%;
     height: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+}
+
+.nav-con{
+    width: 503px;
+    height: 50px;
+    float: right;
+    margin-top: 5px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con li{
+    float: left;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+.nav-con li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 header{
     background-color: lightgrey;
     width: 100%;
     height: 500px;
+    text-align: center;
 }
 
 .full{
     height: 170px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .col-12{
@@ -25,6 +64,48 @@ header{
     background-color: grey;
     text-align: center;
     color: white;
+}
+
+.third{
+    height: 170px;
+}
+
+.col-4{
+    width: 31.33%;
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    margin: 1%;
+    float: left;
+}
+
+.quarter{
+    height: 170px;
+}
+
+.col-3{
+    width: 23%;
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    margin: 1%;
+    float: left;
+}
+
+.half{
+    height: 170px;
+}
+
+.col-6{
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    color: white;
+    margin: 1%;
+    float: left;
 }
 
 footer{
