@@ -45,6 +45,11 @@ nav{
     cursor: pointer;
 }
 
+.button{
+    background-color: black !important;
+    color: white;
+}
+
 header{
     background-color: lightgrey;
     width: 100%;
@@ -99,9 +104,9 @@ header{
 }
 
 .col-6{
-    width: 50%;
+    width: 48%;
     height: 250px;
-    background-color: white;
+    background-color: grey;
     text-align: center;
     color: white;
     margin: 1%;
